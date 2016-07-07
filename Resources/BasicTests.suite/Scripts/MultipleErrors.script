@@ -1,0 +1,4 @@
+Wait 20
+LogError "This is error 1"
+LogError "This is error 2"
+LogError "This is error 3"

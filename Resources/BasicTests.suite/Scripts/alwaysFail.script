@@ -1,0 +1,2 @@
+Wait 20
+LogError "This script will always fail"
