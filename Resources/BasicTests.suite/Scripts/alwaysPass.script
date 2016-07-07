@@ -1,0 +1,2 @@
+Wait 20
+Log "This script will always pass"

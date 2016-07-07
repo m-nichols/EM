@@ -1,0 +1,5 @@
+﻿RunWithNewResults myHelper //call myHelper script from Helper Suite
+
+put scriptResults("myHelper")
+
+

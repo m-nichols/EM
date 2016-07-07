@@ -1,0 +1,6 @@
+params a,b,c
+
+Wait 20
+Log a
+Log b
+Log c
