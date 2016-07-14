@@ -1,2 +1,4 @@
+﻿Log "This script is located in git scm"
+
 Wait 20
 Log "This script will always pass"
