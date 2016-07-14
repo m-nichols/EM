@@ -1,4 +1,5 @@
 ﻿Log "This script is located in git scm"
+Log "this msg was to test git updates"
 
 Wait 20
 Log "This script will always pass"
