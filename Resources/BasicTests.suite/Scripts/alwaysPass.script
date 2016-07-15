@@ -3,4 +3,4 @@ Log "this msg was to test git updates"
 
 Wait 10
 Log "This script will always pass"
-Log "This script finished"
+
