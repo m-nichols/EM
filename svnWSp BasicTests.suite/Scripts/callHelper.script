@@ -1,0 +1,18 @@
+﻿Log "this script is from svn scm"
+Log "testing svn updates..."
+
+BeginTestCase CallHelperScript
+BeginTestCase myHelperCalledUsingRWNR
+Log "Calling myHelper using RWNR ..."
+RunWithNewResults myHelper //call myHelper script from Helper Suite
+EndTestCase myHelperCalledUsingRWNR
+
+put scriptResults("myHelper")
+
+BeginTestCase myHelper2CalledUsingRWNR
+Log "Calling myHelper 2..."
+runwithnewresults myHelper2 
+EndTestCase myHelper2CalledUsingRWNR
+EndTestCase CallHelperScript
+
+

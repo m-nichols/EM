@@ -1,0 +1,18 @@
+﻿Log "starting openTerminal Script ..."
+
+set cnxtInfo to ConnectionInfo()
+
+Log "Connection info:" && cnxtInfo
+if cnxtinfo's connected is true
+	Log "Connection info reports that SUT is connected"
+end if
+
+Click "terminal"
+if ImageFound("terminalPrompt")
+	Log "terminal opened"
+	Click "terminalClose"
+else 
+	LogError "terminal not opened"
+end if
+
+Log "...end of openTerminal Script"

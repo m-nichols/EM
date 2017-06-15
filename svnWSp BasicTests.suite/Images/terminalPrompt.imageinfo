@@ -1,0 +1,18 @@
+﻿{
+    CaptureDate = "2016-03-24 22:58:18 +0000";
+    CaptureHost = ProxMoxCentOS;
+    CaptureScreenSize =     (
+        1280,
+        960
+    );
+    HasAlpha = 1;
+    HotSpotX = 9;
+    HotSpotY = 8;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 252;
+    OriginalLocationY = 183;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+}

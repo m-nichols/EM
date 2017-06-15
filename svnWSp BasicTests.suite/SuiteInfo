@@ -1,0 +1,28 @@
+﻿{
+    EPVersionNumber = 1705212251;
+    Schedules =     (
+    );
+    ScriptMetaData =     {
+        Untitled =         {
+        };
+        alwaysFail =         {
+        };
+        alwaysPass =         {
+        };
+        getConnection =         {
+        };
+        multipleErrors =         {
+        };
+    };
+    SuiteEncodedTextKey = "p\"\"('&.t4vo][DKZ";
+    helpedSuitesInfo =     (
+    );
+    helperSuitesInfo =     (
+                {
+            filePath = "/Users/mattnichols/EManagerTests/Resources/svnHelper2.suite";
+        },
+                {
+            filePath = "/Users/mattnichols/EManagerTests/Resources/svnHelper.suite";
+        }
+    );
+}
