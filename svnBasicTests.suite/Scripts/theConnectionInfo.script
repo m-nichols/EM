@@ -1,0 +1,8 @@
+﻿set cnxtInfo to ConnectionInfo()
+
+Log "Connection info:" && cnxtInfo
+if cnxtinfo's connected is true
+	Log "Connection info reports that SUT is connected"
+end if
+
+return cnxtInfo

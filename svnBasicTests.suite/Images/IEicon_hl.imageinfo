@@ -1,0 +1,18 @@
+﻿{
+    CaptureDate = "2017-02-07 17:14:15 +0000";
+    CaptureHost = "EM_REGRESSION_W";
+    CaptureScreenSize =     (
+        1280,
+        960
+    );
+    HasAlpha = 1;
+    HotSpotX = 11;
+    HotSpotY = 7;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 79;
+    OriginalLocationY = 934;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+}

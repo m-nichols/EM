@@ -1,0 +1,26 @@
+﻿params param1, param2, testLevelHost
+
+set param1Value to "Value param1"
+set param2Value to "Value_param2"
+
+Log "starting testParams Script..."
+
+set cnxtInfo to theConnectionInfo()
+if cnxtInfo contains testLevelHost then Log cnxtInfo else LogError cnxtinfo
+
+Log "testing first passed in parameter..."
+paramTest param1Value, param1
+
+Log "testing second passed in parameter..."
+paramTest param2Value, param2
+
+Log "...end of testParams Script"
+
+to handle paramTest testValue, passedInValue
+	Log "param value should be:" && testValue
+	if passedInValue is testValue
+		Log "As expected, param Value is:" && passedInValue
+	else
+		LogError "Not as expected, param Value is:" && passedInValue
+	end if
+end paramTest

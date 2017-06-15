@@ -1,0 +1,18 @@
+﻿{
+    EPVersionNumber = 1705212251;
+    Schedules =     (
+    );
+    ScriptMetaData =     {
+    };
+    SuiteEncodedTextKey = "u7:W?j{t$Cjd=#&2";
+    helpedSuitesInfo =     (
+    );
+    helperSuitesInfo =     (
+                {
+            filePath = "/Users/matt/Documents/EManagerTests/Resources/svnHelper.suite";
+        },
+                {
+            filePath = "/Users/matt/Documents/EManagerTests/Resources/svnHelper2.suite";
+        }
+    );
+}

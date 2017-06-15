@@ -1,0 +1,15 @@
+﻿-- opens terminal on centOS 
+
+Log "starting openTerminal Script ..."
+
+theConnectionInfo
+
+Click "terminal"
+if ImageFound("terminalPrompt")
+	Log "terminal opened"
+	Click "terminalClose"
+else 
+	LogError "terminal not opened"
+end if	
+CaptureScreen (Name: "desktopImage")	
+Log "...end of openTerminal Script"

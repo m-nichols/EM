@@ -1,0 +1,47 @@
+﻿params theParam
+set theParam to 1
+Log "starting openIE Script ..."
+
+if theParam is empty
+	LogError "Parameter not passed in from script level argument field"
+else
+	Log "the parameter:" && theParam && "successfully passed in"
+end if
+
+set cnxtinfo to theConnectionInfo()
+Log "Connection info:" && cnxtInfo
+if cnxtinfo's connected is true
+	Log "Connection info reports that SUT is connected"
+	set srvrID to cnxtinfo's serverID  -- save, sometimes connection dropped on login
+end if
+
+
+if imageFound ("windowsTestplantLogon")
+	Log "Found Logon page, loggin in..."
+	Click FoundImageLocation()
+	TypeText "eggplant", returnKey
+	set cnxtInfo to ConnectionInfo()
+	if cnxtInfo's connection is True
+		waitfor 30, "IEicon", "IEicon_hl"
+	else
+		connect srvrID  -- sometimes connection dropped on login
+		waitfor 30, "IEicon", "IEicon_hl"
+	end if
+end if
+
+if imageFound("IEicon", "IEicon_hl") 
+	Click FoundImageLocation()
+else
+	LogError "doesn't appear to have connected to win 7 sut"
+end if
+
+if ImageFound("closeIE_x")
+	click FoundImageLocation()
+	Log "IE closed"
+else 
+	LogError "IE doesn't appear to be opened"
+	
+end if	
+CaptureScreen (Name: "desktopImage")	
+Log "...end of the openTerminal Script"
+
