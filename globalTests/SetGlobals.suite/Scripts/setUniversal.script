@@ -1,0 +1,4 @@
+﻿Log "setting universal var unvVar"
+set universal unvVar to "no"
+
+Log "universal unvVar inside script is:" && universal unvVar

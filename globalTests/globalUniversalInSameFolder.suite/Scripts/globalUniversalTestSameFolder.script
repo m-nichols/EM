@@ -1,0 +1,13 @@
+﻿Log "glb var:" && global glbVar
+if global glbVar is true 
+	Log "glbVar is true as expected"
+else
+	LogWarning "glbVar is not true"
+end if
+
+Log "unv var:" && universal unvVar
+if universal unvVar is true
+	Log "unvVar is true as expected"
+else
+	LogWarning "unvVar is not true"
+end if

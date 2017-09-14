@@ -1,0 +1,4 @@
+﻿Log "setting global variable glbvar"
+set global glbVar to "yes"
+
+Log "global glbVar inside script is:" && global glbVar
