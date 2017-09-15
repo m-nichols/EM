@@ -1,21 +1,50 @@
-﻿params arg1, arg2
-Log "Parameter 1:" && arg1
-Log "Parameter 2:" && arg2
+﻿params ip, numRepeat
+Log "Parameter 1:" && ip
+Log "Parameter 2:" && numRepeat
+Log ""
 
-//connect "10.1.11.164"
+--if ip is empty then set ip to "10.1.11.120"
+--if numRepeat is empty then set numRepeat to 2
+
+if ip begins with "10."
+	Log "connection ip passed in"
+	Log "script connecting to " && ip
+	connect ip
+else
+	Log "no connection ip passed in"
+	Log "bypassing script connect"
+end if
+
 wait 2
-
-repeat 2 times
+if numRepeat is empty then set numRepeat to 2
+Log ""
+Log "Opening and closing IE browser" && numRepeat && "times..."
+Log ""
+repeat numRepeat times
+	Log "--------------------------"
+	Log "--------------------------"
+	Log "repeat index" && repeatIndex() && "..."
+	Log "Capturing screen at beginning..."
 	capturescreen ("beginTest_" & repeatIndex())
+	Log "waiting for windows start icon..."
 	waitfor 8, "startIcon"
+	Log "start icon found, clicking start icon..."
 	click foundImagelocation()
 	wait 1
+	Log "launching internet explorer..."
 	TypeText "Internet Explorer",Return
-	waitfor 8, "close"
+	Log "Capturing screen with IE open..."
 	capturescreen ("browserOpen_" & repeatIndex())
+	Log "waiting for close button..."
+	waitfor 8, "close"
+	Log "closing IE...s"
 	click foundImageLocation()
 	Click (500,500)
+	Log "Capturing screen after browser closed"
 	capturescreen ("browserClosed_" & repeatIndex())
+	Log ""
 end repeat
 Wait 3
+
+if ip is not empty then disconnect
 
