@@ -1,0 +1,9 @@
+<?xml version="1.0"?><TableScript xmlns="http://www.testplant.com/xmlns/TableScript/2014">
+<Lines>
+<Line><Action>Connect</Action><Arguments>192.168.1.164</Arguments><ExpectedValueExpression></ExpectedValueExpression><Comment></Comment><Disabled></Disabled></Line>
+<Line><Action>Click</Action><Arguments>startIcon</Arguments><ExpectedValueExpression></ExpectedValueExpression><Comment></Comment></Line>
+<Line><Action>TypeText</Action><Arguments>"Internet Explorer", Return</Arguments><ExpectedValueExpression></ExpectedValueExpression><Comment></Comment></Line>
+<Line><Action>Click</Action><Arguments></Arguments><ExpectedValueExpression></ExpectedValueExpression><Comment></Comment><Disabled></Disabled></Line>
+<Line><Action>Click</Action><Arguments>close</Arguments><ExpectedValueExpression></ExpectedValueExpression><Comment></Comment></Line>
+</Lines>
+</TableScript>

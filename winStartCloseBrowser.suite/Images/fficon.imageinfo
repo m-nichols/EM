@@ -1,0 +1,19 @@
+﻿{
+    CaptureDate = "2015-07-07 19:24:20 +0000";
+    CaptureHost = "8_1Win_RDP";
+    CaptureScreenSize =     (
+        1500,
+        768
+    );
+    HasAlpha = 1;
+    HonorAlpha = 1;
+    HotSpotX = 11;
+    HotSpotY = 10;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 25;
+    OriginalLocationY = 436;
+    Pulsing = 0;
+    Scale = 1;
+    SearchAlgorithm = TextSmoothSquare;
+}

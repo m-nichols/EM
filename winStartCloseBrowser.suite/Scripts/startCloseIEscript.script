@@ -1,0 +1,21 @@
+﻿params arg1, arg2
+Log "Parameter 1:" && arg1
+Log "Parameter 2:" && arg2
+
+//connect "10.1.11.164"
+wait 2
+
+repeat 2 times
+	capturescreen ("beginTest_" & repeatIndex())
+	waitfor 8, "startIcon"
+	click foundImagelocation()
+	wait 1
+	TypeText "Internet Explorer",Return
+	waitfor 8, "close"
+	capturescreen ("browserOpen_" & repeatIndex())
+	click foundImageLocation()
+	Click (500,500)
+	capturescreen ("browserClosed_" & repeatIndex())
+end repeat
+Wait 3
+

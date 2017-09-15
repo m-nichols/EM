@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>commandList</key>
+	<string>[{captureRect:[0, 1, 60, 31], command:@"Click", eventNum:2, hotSpot:[2.5109375000000000e+01, 8.8523828100000003e+02], imageName:@"", infoDict:{folderPath:@"/", imageName:@"startIcon", searchType:@"Tolerant", waitFor:@""}, screenShotFile:@"/Users/matt/Documents/winStartCloseBrowser.suite/Sessions/20141230_174225.104/Screen0002.tiff"}, {command:@"TypeText", eventNum:5, screenShotFile:@"/Users/matt/Documents/winStartCloseBrowser.suite/Sessions/20141230_174225.104/Screen0005.tiff", skipStep:@"YES", text:@"\"I\""}, {command:@"TypeText", eventNum:8, origText:@"\"nternet Explorer\",Return", screenShotFile:@"/Users/matt/Documents/winStartCloseBrowser.suite/Sessions/20141230_174225.104/Screen0008.tiff", text:@"\"Internet Explorer\",Return"}, {captureRect:[1111, 867, 1181, 897], command:@"Click", eventNum:44, hotSpot:[1.1463867190000001e+03, 1.9675781000000001e+01], imageName:@"", infoDict:{folderPath:@"/", imageName:@"close", searchType:@"Tolerant", waitFor:@""}, screenShotFile:@"/Users/matt/Documents/winStartCloseBrowser.suite/Sessions/20141230_174225.104/Screen0044.tiff"}]</string>
+	<key>generatedCommands</key>
+	<array>
+		<string>Click "startIcon"</string>
+		<string>-skipped- TypeText "I"</string>
+		<string>TypeText "Internet Explorer",Return</string>
+		<string>Click "close"</string>
+	</array>
+	<key>locallyAddedFiles</key>
+	<dict>
+		<key></key>
+		<array>
+			<string>startIcon.tiff</string>
+			<string>close.tiff</string>
+			<string>startIcon.tiff</string>
+			<string>close.tiff</string>
+		</array>
+	</dict>
+	<key>unnamedImageCount</key>
+	<integer>0</integer>
+</dict>
+</plist>

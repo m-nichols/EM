@@ -1,0 +1,5 @@
+﻿repeat 3 times
+	DoubleClick "fficon"
+	Waitfor 20, "close"
+	Click foundimagelocation()
+end repeat

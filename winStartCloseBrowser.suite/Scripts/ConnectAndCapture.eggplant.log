@@ -1,0 +1,14 @@
+2017-05-31 16:51:29.570 runscript[4600:4652] NSDocumentClass EGGDocument not NSDocument subclass
+2017-05-31 16:51:29.867 runscript[4600:4652] File NSColor.m: 2104. In -[GSNamedColor initWithCoder:] adding to color list: System name: labelColor color: { ColorSpace = "NSCalibratedWhiteColorSpace"; W = "0"; Alpha = "1"; }
+2017-05-31 16:51:30.086 runscript[4600:4652] Eggplant (Command Line) is 17.0.3-Windows-64, build (1701112316), on Windows 6.1
+2017-05-31 16:51:30.179 runscript[4600:4968] Load C:\Program Files\eggPlant\Eggplant.app\Resources\ABBYY\Bin\FREngine.dll
+2017-05-31 16:51:30.179 runscript[4600:4968] Successfully loaded FREngine.dll
+2017-05-31 16:51:30.508 runscript[4600:4652] File EggplantApplication.m: 712. In -[EggplantApplication applicationDidFinishLaunching:] Windows/mingw backtrace library loaded successfully
+2017-05-31 16:51:31.117 runscript[4600:4968] OCR enabled-unlimited usage
+2017-05-31 16:51:33.226 runscript[4600:4652] Approved License: Name = proxmox, Remark = , Serial = 20, Users = 20
+eggPlant (17.0.3-1701112316) running in Execution mode on Windows-64 Host:0x35323366
+2017-05-31 16:51:34.617 runscript[4600:3352] Execution of the script located at path: C:/Users/testplant/Documents/winStartCloseBrowser.suite/Scripts/ConnectAndCapture.script STARTED
+2017-05-31 16:51:34.726 runscript[4600:3152] Connection with win10 STARTED. TYPE: VNC
+2017-05-31 16:51:37.476 runscript[4600:3352] Execution of the script located at path: C:/Users/testplant/Documents/winStartCloseBrowser.suite/Scripts/ConnectAndCapture.script ENDED
+2017-05-31 16:51:38.054 runscript[4600:4652] Completed winStartCloseBrowser.suite - ConnectAndCapture.script
+2017-05-31 16:51:38.070 runscript[4600:3152] Connection with win10 CLOSED. TYPE: VNC
