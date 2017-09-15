@@ -9,7 +9,8 @@ if ip is empty then set ip to "10.1.11.191"
 if ip begins with "10."
 	Log "connection ip passed in"
 	Log "script connecting to " && ip
-	connect ip
+	connect (serverid: ip, password: "eggplant")
+	Log connectionInfo()
 else
 	Log "no connection ip passed in"
 	Log "bypassing script connect"
