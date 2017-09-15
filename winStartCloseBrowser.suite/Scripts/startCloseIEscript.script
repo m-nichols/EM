@@ -3,7 +3,7 @@ Log "Parameter 1:" && ip
 Log "Parameter 2:" && numRepeat
 Log ""
 
---if ip is empty then set ip to "10.1.11.120"
+if ip is empty then set ip to "10.1.11.191"
 --if numRepeat is empty then set numRepeat to 2
 
 if ip begins with "10."
