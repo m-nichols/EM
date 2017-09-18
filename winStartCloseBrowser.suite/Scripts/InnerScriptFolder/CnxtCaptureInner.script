@@ -1,0 +1,7 @@
+﻿
+
+--connect "10.1.11.192"
+waitFor 20, "startIcon", "startIcon_win10"
+if FoundImageInfo().imageName is "startIcon" then log "win 7 sut"
+if foundImageInfo().imageName is "startIcon_win10" then log "win 10 sut"
+captureScreen
