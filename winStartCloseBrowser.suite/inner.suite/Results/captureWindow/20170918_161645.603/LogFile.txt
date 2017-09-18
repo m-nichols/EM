@@ -1,0 +1,5 @@
+﻿2017-09-18 16:16:45.608 -0600	START		Running captureWindow.script
+2017-09-18 16:16:47.294 -0600	capturescreen	Screen_Capture.png		1	on_capturewindow	captureWindow.script
+2017-09-18 16:17:11.228 -0600	Exception	win226_startIcon	Unable To Find Any Image On Screen "win226_startIcon" within 10.00 seconds	2	on_capturewindow	captureWindow.script
+2017-09-18 16:17:17.464 -0600	EndTestCase		(Duration:"31.852375", Errors:"1", Exceptions:"1", StartTime:"2017-09-18 16:16:45 -0600", Successes:"0", TestCase:"captureWindow.script", Warnings:"0")
+2017-09-18 16:17:17.466 -0600	ABORTED		Execution Time 0:00:31 captureWindow.script

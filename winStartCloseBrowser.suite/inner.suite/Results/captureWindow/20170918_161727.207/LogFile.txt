@@ -1,0 +1,6 @@
+﻿2017-09-18 16:17:27.210 -0600	START		Running captureWindow.script
+2017-09-18 16:17:28.488 -0600	capturescreen	Screen_Capture.png		1	on_capturewindow	captureWindow.script
+2017-09-18 16:17:29.627 -0600	waitfor	win226_startIcon	found at (25, 1004)	2	on_capturewindow	captureWindow.script
+2017-09-18 16:17:29.662 -0600	Log		if no error, then window found	3	on_capturewindow	captureWindow.script
+2017-09-18 16:17:36.145 -0600	EndTestCase		(Duration:"8.932702", Errors:"0", Exceptions:"0", StartTime:"2017-09-18 16:17:27 -0600", Successes:"1", TestCase:"captureWindow.script", Warnings:"0")
+2017-09-18 16:17:36.239 -0600	SUCCESS		Execution Time 0:00:08 captureWindow.script
