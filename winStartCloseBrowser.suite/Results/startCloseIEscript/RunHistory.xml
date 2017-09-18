@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<runHistory script="startCloseIEscript">
+ <run>
+  <RunDate>2017-09-15 11:38:17.347 -0600</RunDate>
+  <Status>Success</Status>
+  <Duration>25.052810</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20170915_113817.347/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+</runHistory>

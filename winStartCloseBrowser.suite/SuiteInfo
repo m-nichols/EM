@@ -1,1 +1,30 @@
-﻿{EPVersionNumber = 1706292237; PostRunScript = "postScript.script"; RunPostScript = NO; Schedules = ({ChangeCount = 1; Name = "Schedule 1"; Schedule = ({Num = 1; Run = YES; Script = "startCloseIEscript.script"; }); }); ScriptMetaData = {startCloseIEscript = {}; startCloseIEtable = {}; }; SuiteDescription = "Opens IE and closes it"; SuiteEncodedTextKey = "<cYC!oV7bt-<],q<"; helpedSuitesInfo = (); helperSuitesInfo = (); }
+﻿{
+    EPVersionNumber = 1708031617;
+    PostRunScript = "postScript.script";
+    RunPostScript = NO;
+    Schedules =     (
+                {
+            ChangeCount = 1;
+            Name = "Schedule 1";
+            Schedule =             (
+                                {
+                    Num = 1;
+                    Run = YES;
+                    Script = "startCloseIEscript.script";
+                }
+            );
+        }
+    );
+    ScriptMetaData =     {
+        startCloseIEscript =         {
+        };
+        startCloseIEtable =         {
+        };
+    };
+    SuiteDescription = "Opens IE and closes it";
+    SuiteEncodedTextKey = "<cYC!oV7bt-<],q<";
+    helpedSuitesInfo =     (
+    );
+    helperSuitesInfo =     (
+    );
+}

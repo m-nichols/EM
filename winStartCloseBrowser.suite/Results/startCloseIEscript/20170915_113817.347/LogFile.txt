@@ -1,0 +1,56 @@
+﻿2017-09-15 11:38:17.349 -0600	START		Running startCloseIEscript.script
+2017-09-15 11:38:17.495 -0600	Log		Parameter 1: 	2	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:17.515 -0600	Log		Parameter 2: 	3	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:17.530 -0600	Log			4	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:17.572 -0600	Log		connection ip passed in	10	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:17.586 -0600	Log		script connecting to  10.1.11.191	11	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:19.555 -0600	connect		10.1.11.191:(null)	12	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:19.779 -0600	Log		(Availability:"Active", Bonjour:"False", ColorDepth:"32", Connected:"True", Name:"test - proxmox - windows", Pass_code:<<V!J&)8:6Y7">>, PortNum:"5900", Reverse:"False", ScreenSize:(1280,960), ServerID:"10.1.11.191", Status:"Connected", Type:"vnc", Visible:"True")	13	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:21.879 -0600	Log			21	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:21.891 -0600	Log		Opening and closing IE browser 2 times...	22	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:21.904 -0600	Log			23	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:21.932 -0600	Log		--------------------------	25	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:21.946 -0600	Log		--------------------------	26	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:21.958 -0600	Log		repeat index 1 ...	27	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:21.970 -0600	Log		Capturing screen at beginning...	28	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:22.805 -0600	capturescreen	beginTest_1.png		29	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:22.819 -0600	Log		waiting for windows start icon...	30	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:25.272 -0600	waitfor	startIcon	found at (29, 940)	31	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:25.291 -0600	Log		start icon found, clicking start icon...	32	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:25.392 -0600	click		at (29, 940)	33	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:26.417 -0600	Log		launching internet explorer...	35	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:26.667 -0600	typetext		Internet Explorer[return]	36	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:26.678 -0600	Log		Capturing screen with IE open...	37	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:27.030 -0600	capturescreen	browserOpen_1.png		38	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:27.041 -0600	Log		waiting for close button...	39	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:27.602 -0600	waitfor	close	found at (1235, 28)	40	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:27.621 -0600	Log		closing IE...s	41	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:27.722 -0600	click		at (1235, 28)	42	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:28.512 -0600	click		at (500, 500)	43	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:28.520 -0600	Log		Capturing screen after browser closed	44	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:29.927 -0600	capturescreen	browserClosed_1.png		45	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:29.941 -0600	Log			46	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:29.960 -0600	Log		--------------------------	25	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:29.980 -0600	Log		--------------------------	26	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:29.991 -0600	Log		repeat index 2 ...	27	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:30.006 -0600	Log		Capturing screen at beginning...	28	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:31.400 -0600	capturescreen	beginTest_2.png		29	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:31.407 -0600	Log		waiting for windows start icon...	30	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:32.742 -0600	waitfor	startIcon	found at (29, 940)	31	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:32.760 -0600	Log		start icon found, clicking start icon...	32	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:32.865 -0600	click		at (29, 940)	33	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:33.888 -0600	Log		launching internet explorer...	35	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:34.139 -0600	typetext		Internet Explorer[return]	36	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:34.150 -0600	Log		Capturing screen with IE open...	37	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:34.489 -0600	capturescreen	browserOpen_2.png		38	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:34.500 -0600	Log		waiting for close button...	39	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:35.006 -0600	waitfor	close	found at (1235, 28)	40	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:35.016 -0600	Log		closing IE...s	41	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:35.134 -0600	click		at (1235, 28)	42	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:35.920 -0600	click		at (500, 500)	43	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:35.928 -0600	Log		Capturing screen after browser closed	44	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:37.042 -0600	capturescreen	browserClosed_2.png		45	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:37.053 -0600	Log			46	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:40.103 -0600	disconnect		test - proxmox - windows	50	on_startcloseiescript	startCloseIEscript.script
+2017-09-15 11:38:42.401 -0600	EndTestCase		(Duration:"25.049575", Errors:"0", Exceptions:"0", StartTime:"2017-09-15 11:38:17 -0600", Successes:"1", TestCase:"startCloseIEscript.script", Warnings:"0")
+2017-09-15 11:38:42.413 -0600	SUCCESS		Execution Time 0:00:25 startCloseIEscript.script

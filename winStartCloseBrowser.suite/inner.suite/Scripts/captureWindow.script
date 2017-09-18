@@ -1,0 +1,3 @@
+﻿captureScreen
+waitfor 10, "win226_startIcon"
+Log "if no error, then window found"

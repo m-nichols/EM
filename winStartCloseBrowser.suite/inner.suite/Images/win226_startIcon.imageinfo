@@ -1,0 +1,18 @@
+﻿{
+    CaptureDate = "2017-09-18 22:15:38 +0000";
+    CaptureHost = "test - win10 - RealVNC";
+    CaptureScreenSize =     (
+        1280,
+        1024
+    );
+    HasAlpha = 1;
+    HotSpotX = 7;
+    HotSpotY = 5;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 18;
+    OriginalLocationY = 999;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+}

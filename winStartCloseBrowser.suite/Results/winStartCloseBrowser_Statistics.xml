@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<statistics>
+ <script name="startCloseIEscript">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2017-09-15 11:38:17 -0600</FirstRun>
+  <LastRun>2017-09-15 11:38:17 -0600</LastRun>
+  <TotalTimeOnSuccess>25.052810</TotalTimeOnSuccess>
+ </script>
+</statistics>
